@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>CV Kazakov Dmitiy</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>CV Kazakov Dmitriy</title>
 </head>
 
 <body>
@@ -16,21 +17,24 @@
             <div class="row" style="margin-top: 5%;">
                 <div class="col-4">
                     <img src="./img/face.jpeg" alt="" class="rounded-circle img-fluid">
-                </div>    
+                </div>
 
                 <div class="col-8">
                     <h1>Казаков Дмитрий <br>Владимирович</h1>
                     <ul>
-                        <li>33 года</li>
+                        <li id="age"> года</li>
                         <li>2 августа 1989</li>
                         <li>Санкт-Петербург, Мурино</li>
                     </ul>
                     <p>Контакты:</p>
                     <ul>
                         <li><a href="tel:+79992160208"><img src="./ico/telephone.svg" alt=""> +7(999)216-02-08</a></li>
-                        <li><a href="mailto:dimaevan@gmail.com"><img src="./ico/email.svg" alt=""> dimaevan@gmail.com</a></li>
-                        <li><a href="https://vk.com/evandima"><img src="./ico/vk.svg" alt=""> vk.com/evandima</a></li>
-                        <li><a href=""><img src="./ico/telegram.svg" alt=""> dimaevan</a></li>
+                        <li><a href="mailto:dimaevan@yandex.com" target="_blank"><img src="./ico/email.svg" alt="">
+                                dimaevan@yandex.com</a></li>
+                        <li><a href="https://vk.com/evandima" target="_blank"><img src="./ico/vk.svg" alt="">
+                                vk.com/evandima</a></li>
+                        <li><a href="https://t.me/dimaevan" target="_blank"><img src="./ico/telegram.svg" alt="">
+                                dimaevan</a></li>
                     </ul>
                 </div>
 
@@ -41,9 +45,13 @@
                 <div class="col-12" style="margin-top: 5%;">
                     <p class="p-2 mb-2 bg-secondary text-white">О себе</p>
                     <p class="new">
-                        Давно интересуюсь всем,что связано с миром IT. Мне интересны направления, связанные с обеспечением качества, поддержкой программных продуктов.
-                        В будущем хочу развиваться в направлении тестирования, автотестирования. Мне нравится процесс написания кода и в целом автоматизация.
-                        Для достижения цели я занимаюсь самообразованием, стараюсь изучать новые технологии, делаю небольшие проекты, развиваю навыки и обучаюсь чему-то новому в области IT. На данный момент интересует
+                        Давно интересуюсь всем,что связано с миром IT. Мне интересны направления, связанные с
+                        обеспечением качества, поддержкой программных продуктов.
+                        В будущем хочу развиваться в направлении тестирования, автотестирования. Мне нравится процесс
+                        написания кода и в целом автоматизация.
+                        Для достижения цели я занимаюсь самообразованием, стараюсь изучать новые технологии, делаю
+                        небольшие проекты, развиваю навыки и обучаюсь чему-то новому в области IT. На данный момент
+                        интересует
                         профессиональное развитие в области web-тестирования, автоматизированного тестирования и
                         клиентского сервиса.<br>
                         Есть опыт написания Telegram-ботов, парсеров, проектов по тестированию UI.
@@ -92,8 +100,46 @@
                             Многоканальные телекоммуникационные системы<br>
                             Эксплуатация средств связи, 2008 г.</li>
                     </ul>
+
+
+                    <p class="p-2 mb-2 bg-secondary text-white">Дополнительное образование</p>
+                    <ul>
+                        <li>
+                            Тестировщик.Начальный уровень,2022<br>
+                            Артем Русао
+                            <br>
+                        </li>
+                        <li>
+                            Python-разработчик,2021<br>
+                            Хекслет
+                    </ul>
+
+                    <p class="p-2 mb-2 bg-secondary text-white">Дополнительное образование</p>
+
+                    <div class="row" style="margin-left: 1%; margin-bottom: 20px;">
+                        <div class="card" style="width: 18rem;margin-right: 5%;">
+                            <img class="card-img-top" src="./certificates/POSTMAN.png" alt="Postman Sertificate">
+                            <div class="card-body">
+                                <p class="card-text">Сертификат Postman</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;margin-right: 5%;">
+                            <img class="card-img-top" src="./certificates/SQL.png" alt="SQL Sertificate">
+                            <div class="card-body">
+                                <p class="card-text">Сертификат SQL</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;margin-right: 5%;">
+                            <img class="card-img-top" src="./certificates/Selenium.png" alt="Selenium Sertificate">
+                            <div class="card-body">
+                                <p class="card-text">Сертификат Selenium</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+            <script src="./JS/BirthdayCalc.js"></script>
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
                 integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
                 crossorigin="anonymous"></script>
