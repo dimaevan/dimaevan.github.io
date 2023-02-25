@@ -35,14 +35,23 @@
                     </ul>
                     <p>Контакты:</p>
                     <ul>
-                    <li><a href="tel:+79992160208"><img src="./ico/telephone.svg" alt=""> +7(999)216-02-08</a></li>
-                    <li><a href="mailto:dimaevan@yandex.com" target="_blank"><img src="./ico/email.svg" alt="">
-                            dimaevan@yandex.com</a></li>
-                    <li><a href="https://vk.com/evandima" target="_blank"><img src="./ico/vk.svg" alt="">
-                            vk.com/evandima</a></li>
-                    <li><a href="https://t.me/dimaevan" target="_blank"><img src="./ico/telegram.svg" alt="">
-                            dimaevan</a></li>
+                        <li><a href="tel:+79992160208"><img src="./ico/telephone.svg" alt=""> +7(999)216-02-08</a></li>
+                        <li><a href="mailto:dimaevan@yandex.com" target="_blank"><img src="./ico/email.svg" alt="">
+                                dimaevan@yandex.com</a></li>
+                        <li><a href="https://vk.com/evandima" target="_blank"><img src="./ico/vk.svg" alt="">
+                                vk.com/evandima</a></li>
+                        <li><a href="https://t.me/dimaevan" target="_blank"><img src="./ico/telegram.svg" alt="">
+                                dimaevan</a></li>
+
                     </ul>
+                    <button type="button" class="btn btn-secondary" id="pdf"> <img src="./ico/printer.svg" alt="">Распечатать</button>
+
+                    <script>
+                        const btn = document.getElementById("pdf");
+                        btn.addEventListener("click", function () {
+                            window.print()
+                        });
+                    </script>
                 </div>
             </div>
 
@@ -116,7 +125,7 @@
                             <br>
                         </li>
                         <li>
-                            Тестирование ПО с Нуля до Специалиста, 2023 <br>    
+                            Тестирование ПО с Нуля до Специалиста, 2023 <br>
                             Stepik
                             <br>
                         </li>
@@ -125,7 +134,9 @@
                             Хекслет
                     </ul>
 
-                    <a name="sertificates" href="#sertificates" style="text-decoration: none"><p class="p-2 mb-2 bg-secondary text-white"><b>Сертификаты</b></p></a>
+                    <a name="sertificates" href="#sertificates" style="text-decoration: none">
+                        <p class="p-2 mb-2 bg-secondary text-white"><b>Сертификаты</b></p>
+                    </a>
 
                     <div class="row" style="margin-left: 1%; margin-bottom: 20px;">
                         <div class="card cert_item mx-auto" style="width: 18rem;margin-right: 5%;">
